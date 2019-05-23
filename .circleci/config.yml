@@ -9,4 +9,4 @@ jobs:
       - checkout
       - run:
           name: Install and Test this package
-          command: julia runtests.jl'
+          command: julia runtests.jl
