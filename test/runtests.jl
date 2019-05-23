@@ -1,9 +1,10 @@
-using Test
-include("C:/Users/Connor/github/ProjectEuler/src/p01.jl") # note - need "" vs ''
-include("C:/Users/Connor/github/ProjectEuler/src/p02.jl")
-include("C:/Users/Connor/github/ProjectEuler/src/p03.jl")
-include("C:/Users/Connor/github/ProjectEuler/src/p04.jl")
-include("C:/Users/Connor/github/ProjectEuler/src/p05.jl")
+using Test, ProjectEuler
+# include("C:/Users/Connor/github/ProjectEuler/src/p01.jl") # note - need "" vs ''
+# include("C:/Users/Connor/github/ProjectEuler/src/p02.jl")
+# include("C:/Users/Connor/github/ProjectEuler/src/p03.jl")
+# include("C:/Users/Connor/github/ProjectEuler/src/p04.jl")
+# include("C:/Users/Connor/github/ProjectEuler/src/p05.jl")
+
 
 # sanity check
 @test 1 == 1
