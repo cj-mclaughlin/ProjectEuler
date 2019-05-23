@@ -23,4 +23,8 @@ function sum_multiples_below(multiple, upper_bound)
     return solution
 end
 
-println(sum_multiples_below(3, 999) + sum_multiples_below(5, 999) - sum_multiples_below(15, 999))
+function p1_fast()
+    return sum_multiples_below(3, 999) + sum_multiples_below(5, 999) - sum_multiples_below(15, 999)
+end
+
+println(p1_fast())

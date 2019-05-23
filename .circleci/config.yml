@@ -8,5 +8,5 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install and Test this package
+          name: Run test script
           command: julia runtests.jl
