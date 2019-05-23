@@ -1,5 +1,5 @@
-# Project Euler Problem 6 - Connor Mclaughlin
-# Problem found at projecteuler.net/problem=6
+# Project Euler Problem 7 - Connor Mclaughlin
+# Problem found at projecteuler.net/problem=7
 
 function is_coprime(arr, x)
     return !any(i -> x % i == 0, arr)
