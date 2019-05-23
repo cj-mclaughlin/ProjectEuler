@@ -1,4 +1,6 @@
 # Project Euler Problem 1 - Connor Mclaughlin
+# Problem found at projecteuler.net/problem=1
+
 # naive solution
 function p1()
     solution = 0
