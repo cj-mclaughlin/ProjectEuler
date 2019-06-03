@@ -1,8 +1,6 @@
 # Project Euler Problem 1 - Connor Mclaughlin
 # Problem found at projecteuler.net/problem=1
 
-module ProjectEuler
-
 # naive solution
 function p1()
     solution = 0
@@ -30,5 +28,3 @@ function p1_fast()
 end
 
 println(p1_fast())
-
-end
